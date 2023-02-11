@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>educational website</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web.css">
+
+    
+</head>
+
+<body>
+   
+    <section class="head">
+      
+        <nav>
+           
+           
+            <a href="web.html"><img src="/images/logo.png" ></a>
+            <div class="logo" id="LOGO">
+               
+                <i class="fa fa-times" onclick="hide()" ></i>
+            
+               
+                <ul>
+                    <li>H0ME</li>
+                    <li>ABOUT US</li>
+                    <li>COURSE</li>
+                    <a href="registration.html">
+                        <li>REGISTER</li>
+                    </a>  
+                </ul>
+               
+            </div>
+              
+            <i class="fa fa-bars" onclick="show()"  ></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>WELCOME TO OUR UNIVERSITY</h1>
+            <p>I HOPE YOU HAVE GREAT TYM HERE</p>
+            <a href="" class="buton">visit us to know more</a>
+
+        </div>
+    </section>
+
+    <!--course section-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We provides you with widest range of courses with finest quality of teaching here</p>
+  
+    <div class="row" style="display:flex">
+        <div class="course-col">
+            <h3 class="heading">UNDER GRADUATE COURSES</h3>
+            <p class="center"> We offer 30+ undergraduate courses at Cambridge
+                covering more than 65 subject areas.If you can't 
+                find the course that is best for your carrer you 
+                can contact to our career counsellors</p>
+        </div> 
+        <div class="course-col">
+            <h3 class="heading">POST GRADUATE COURSES</h3>
+            <p  class="center">We offer 30+ postgraduate courses at Cambridge
+                covering more than 65 subject areas.If you can't 
+                find the course that is best for your carrer you 
+                can contact to our career counsellors</p>
+        </div>
+        <div class="course-col">
+            <h3 class="heading">PHD COURSES</h3>
+            <p class="center">In order to keep your knowledge consistenly 
+                grow in field that intresets you We offer
+                 30+ PHD courses at Cambridge
+                covering more than 65 subject areas.If 
+                you can't find the course that is best
+                 that is best for your carrer you can 
+                contact to our career counsellors </p>
+        </div>
+    </div>
+</section>
+    <!--UNIVERSITY TOUR-->
+    <section class="university-tour">
+        <h1>OUR CAMPUS TOUR</h1>
+        <p>our campus located between beautiful scenries in dehradun is know to have top rank in uttarakhand
+            and 13th in india.
+        </p>
+    
+        <div style="display: flex;">
+            <img src="/images/image1.jpg" style="flex-basis: 33.33%; width: 20%; height: 50%; " class="img-hover">
+            <img src="/images/image2.jpg" style="flex-basis: 33.33%; width: 20%; height: 50%; " class="img-hover">
+            <img src="/images/image3.jpg" style="flex-basis: 33.33%; width: 20%; height: 50%; " class="img-hover">
+        </div>
+          
+    </section>
+    <!--facilities section-->
+   
+    <section class="facilities">
+        <h1>OUR FACILITIES</h1>
+        <p>we tries to experience you with best facilities here
+        </p>
+    
+        <div class="cover">
+            <div class="box">
+                <img src="/images/library.jpg" style="width: 20%; height: 50%; " class="lib_img">
+                <div class="lib_text">
+                <h3>OUR LIBRARY</h3>
+                <p>We tries to keep you study with calm mind for 
+                    efficient<br> learning by providing top class library 
+                    Facilities
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                
+                <div class="play_text">
+                    <h3>SPORTS</h3>
+                    <p>As we know that along with studies in <br>
+                        order to have balance life daily exercise<br>
+                         must be a part of our routine so we tries<br>
+                          to provide with top sports facilities here
+                    </p>
+                </div>
+                <img src="/images/baketball.jpg" style="width: 20%; height: 50%; " class="play_img">
+                
+            </div>
+            <div class="box">
+                <img src="/images/cafeteria.jpg" style=" width: 20%; height: 50%; " class="cafe_img">
+                <div class="cafe_text">
+                    <h3>CANTEEN</h3>
+                    <p>
+                        As we know how much important is good <br>food to have a
+                         good balance life so we tries to provide you <br>with best
+                          quality,healthy and tasty food here
+                        
+                    </p>
+                </div>
+                
+            </div>
+        </div>  
+    </section>
+    <footer>
+        <p>MOOCS 2023 SUBMISSION</p>
+        <p>Submited by: Swete </p>
+        <p>Author: Sem-3 </p>
+        <p><a href="mailto:hege@example.com">sauntiyals@gmail.com</a></p>
+        <p>Contact number: +91-7017636597 </p>
+    </footer>
+    <script>
+        var nav=document.getElementById("LOGO")
+        function show()
+        {
+            nav.style.right="0";
+        }
+        function hide()
+        {
+            nav.style.right="-200px";
+        }
+
+    </script>
+    </body>
+</html>
+ 
